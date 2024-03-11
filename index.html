@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEEP NOID</title>
+    <!-- pretendard 폰트-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+    <!-- fontawesome 폰트어썸 -->
+    <script
+      src="https://kit.fontawesome.com/5cad1f58b8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.1/jquery-ui.min.js"></script>
+    <!-- fullpage -->
+    <link rel="stylesheet" href="css/jquery.fullPage.css" />
+    <script src="src/jquery.fullPage.js.다운로드"></script>
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <script src="src/swiper-bundle.min.js.다운로드"></script>
+    <!-- CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- js -->
+    <script src="src/main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header id="header">
+      <div class="header">
+        <!-- logo -->
+        <h1 class="header_logo">
+          <a href="#">
+            <img
+              src="https://static.wixstatic.com/media/b136d4_5270368e22ec4d038bc84b2afb69c4bf~mv2.png/v1/fill/w_185,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/new-logo_white_221011.png"
+              style="width: 130px"
+              alt="deepnoid logo"
+            />
+          </a>
+        </h1>
+        <!-- nav -->
+        <nav>
+          <!-- pc -->
+          <ul class="gnb">
+            <li class="gnb_list">
+              <a class="gnb_list_tit" href="#">의료 AI</a>
+              <!-- slidedown nav -->
+              <div class="lnb">
+                <ul class="lnb_wrap">
+                  <li class="lnb_wrap_list">
+                    <a href="#">DEEP:NEURO</a>
+                  </li>
+                  <li class="lnb_wrap_list">
+                    <a href="#">DEEP:CHEST</a>
+                  </li>
+                  <li class="lnb_wrap_list">
+                    <a href="#">DEEP:LUNG</a>
+                  </li>
+                  <li class="lnb_wrap_list">
+                    <a href="#">DEEP:SPINE</a>
+                  </li>
+                  <li class="lnb_wrap_list">
+                    <a href="#">DEEP:PACS PRO</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="gnb_list">
+              <a class="gnb_list_tit" href="#">산업 AI</a>
+              <!--  slidedown nav -->
+              <div class="lnb">
+                <ul class="lnb_wrap">
+                  <li class="lnb_wrap_list"><a href="#">DEEP:SECURITY</a></li>
+                  <li class="lnb_wrap_list"><a href="#">DEEP:FACTORY</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="gnb_list">
+              <a class="gnb_list_tit" href="#">AI 플랫폼</a>
+              <!--  slidedown nav -->
+              <div class="lnb"></div>
+            </li>
+
+            <li class="gnb_list">
+              <a class="gnb_list_tit" href="#">AI 교육</a>
+              <!--  slidedown nav -->
+              <div class="lnb"></div>
+            </li>
+
+            <li class="gnb_list">
+              <a class="gnb_list_tit" href="#">딥노이드</a>
+              <!--  slidedown nav -->
+              <div class="lnb">
+                <ul class="lnb_wrap">
+                  <li class="lnb_wrap_list"><a href="">회사소개</a></li>
+                  <li class="lnb_wrap_list"><a href="">Career</a></li>
+                  <li class="lnb_wrap_list"><a href="">Contact us</a></li>
+                  <li class="lnb_wrap_list"><a href="">X4 AI 컨퍼런스</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="gnb_list">
+              <a class="gnb_list_tit" href="#">뉴스</a>
+              <!--  slidedown nav -->
+              <div class="lnb">
+                <ul class="lnb_wrap">
+                  <li class="lnb_wrap_list"><a href="">News</a></li>
+                  <li class="lnb_wrap_list"><a href="">DEEP:News</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="gnb_list">
+              <a class="gnb_list_tit" href="#">투자정보</a>
+              <!--  slidedown nav -->
+              <div class="lnb">
+                <ul class="lnb_wrap">
+                  <li class="lnb_wrap_list"><a href="">주가정보</a></li>
+                  <li class="lnb_wrap_list"><a href="">공시정보</a></li>
+                  <li class="lnb_wrap_list"><a href="">재무정보</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="lnb_sub"></div>
+        </nav>
+        <div class="nation">
+          <div class="nation-box">
+            <a class="on" href="">KOR</a>
+            <a class="" href="">ENG</a>
+          </div>
+        </div>
+      </div>
+      <!-- mobile nav -->
+      <div class="m_gnb"></div>
+    </header>
+    <!-- main -->
+    <main id="fullpage">
+      <section class="section full-screen main">
+        <div class="swiper-container swiper1">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide slide1">
+              <div class="slide_txt title">
+                <div class="slide_txt_tit">
+                  <h2>AI in Everyday Life</h2>
+                  <p>Together with <strong>DEEPNOID</strong></p>
+                </div>
+                <div class="slide_txt_description">
+                  <p>
+                    DEEPNOID는 누구나 인공지능을 쉽게 이해하고 <br />
+                    활용할 수 있는 미래를 지향합니다.
+                  </p>
+                  <a href="" class="slide_txt_btn"
+                    >VIEW MORE <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+            </li>
+            <li class="swiper-slide slide2">
+              <div class="slide_txt title">
+                <div class="slide_txt_tit">
+                  <h2>For Partner Business Growth</h2>
+                  <p>DEEPNOID <strong>AI Solution</strong></p>
+                </div>
+                <div class="slide_txt_description">
+                  <p>
+                    DEEONOID 파트너만이 누릴 수 있는 다양한 혜택을 제공합니다.
+                  </p>
+                  <a href="" class="slide_txt_btn"
+                    >CONTACT US <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!--slide navigation -->
+        <div class="swiper-pagination main-pagination"></div>
+        <!-- mouse -->
+        <div class="scroll-mouse">
+          <div class="mouse">
+            <div class="scroller"></div>
+          </div>
+        </div>
+      </section>
+      <!-- business -->
+      <section class="section">
+        <div class="container business_container">
+          <!-- 비지니스 왼쪽 -->
+          <div class="section_left business_container_left">
+            <p class="name">DEEPNOID</p>
+            <h2 class="section_tit">Business Area</h2>
+            <p class="section_txt">
+              딥노이드의 인공지능(AI)기술은 <br />
+              누구나 쉽고 빠르게 인공지능을 도입할 수 있도록 <br />
+              A to Z를 제공합니다.
+            </p>
+
+            <div class="moving_box">
+              <div class="slide_btn">
+                <!-- slide prebtn -->
+                <div class="swiper-button-prev slide_prebtn"></div>
+                <!--slide count -->
+                <div class="slide_count">
+                  <span class="cur-num">01</span>
+                  <span>/</span>
+                  <span class="total-num">06</span>
+                </div>
+                <!-- slide nexbtn -->
+                <div class="swiper-button-next slide_nexbtn"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 비지니스 오른쪽 -->
+          <div class="section_right business_container_right">
+            <div class="swiper-container swiper2">
+              <ul class="swiper-wrapper business_wrap">
+                <li class="swiper-slide business_wrap_list business_wrap_list1">
+                  <a class="business_wrap_link" href="#">
+                    <div class="business_txt_box">
+                      <h3 class="business_wrap_title">DEEP:AI</h3>
+                      <p class="business_wrap_txt">
+                        의료인들의 판독 보조 인공지능 솔루션
+                        <span class="slide_txt_btn view_more"
+                          >VIEW MORE <i class="fa-solid fa-arrow-right-long"></i
+                        ></span>
+                      </p>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="swiper-slide business_wrap_list business_wrap_list2">
+                  <a class="business_wrap_link" href="#">
+                    <div class="business_txt_box">
+                      <h3 class="business_wrap_title">DEEP:PACS</h3>
+                      <p class="business_wrap_txt">
+                        의료영상데이트를 저장(Archiving), 판독(Reading) 및
+                        검색(Viewing) 솔루션
+                        <span class="slide_txt_btn view_more"
+                          >VIEW MORE <i class="fa-solid fa-arrow-right-long"></i
+                        ></span>
+                      </p>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="swiper-slide business_wrap_list business_wrap_list3">
+                  <a class="business_wrap_link" href="#">
+                    <div class="business_txt_box">
+                      <h3 class="business_wrap_title">DEEP:SECURITY</h3>
+                      <p class="business_wrap_txt">
+                        인공지능(AI) 기반의 X-ray 위해물품 자동판독 솔루션
+                        <span class="slide_txt_btn view_more"
+                          >VIEW MORE <i class="fa-solid fa-arrow-right-long"></i
+                        ></span>
+                      </p>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="swiper-slide business_wrap_list business_wrap_list4">
+                  <a class="business_wrap_link" href="#">
+                    <div class="business_txt_box">
+                      <h3 class="business_wrap_title">DEEP:FACTORY</h3>
+                      <p class="business_wrap_txt">
+                        차별화된 AI 솔루션으로 딥러닝 기반의 머신비전 솔루션
+                        <span class="slide_txt_btn view_more"
+                          >VIEW MORE <i class="fa-solid fa-arrow-right-long"></i
+                        ></span>
+                      </p>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="swiper-slide business_wrap_list business_wrap_list5">
+                  <a class="business_wrap_link" href="#">
+                    <div class="business_txt_box">
+                      <h3 class="business_wrap_title">DEEP:EDU</h3>
+                      <p class="business_wrap_txt">
+                        비전공자도 인공지능을 쉽게 배우고 활용할 수 있는 교육
+                        <span class="slide_txt_btn view_more"
+                          >VIEW MORE <i class="fa-solid fa-arrow-right-long"></i
+                        ></span>
+                      </p>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="swiper-slide business_wrap_list business_wrap_list6">
+                  <a class="business_wrap_link" href="#">
+                    <div class="business_txt_box">
+                      <h3 class="business_wrap_title">DEEP:PHI</h3>
+                      <p class="business_wrap_txt">
+                        노코딩 기반 누구나 쉽게 인공지능 연구 개발, 배포 가능한
+                        AI 플랫폼
+                        <span class="slide_txt_btn view_more"
+                          >VIEW MORE <i class="fa-solid fa-arrow-right-long"></i
+                        ></span>
+                      </p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- news -->
+      <section class="section">
+        <div class="content">
+          <div class="content_box_top">
+            <p class="name">DEEPNOID</p>
+            <h2 class="section_tit">News</h2>
+            <p class="section_txt news_txt">
+              딥노이드의 새로운 소식을 알려드립니다.
+            </p>
+            <div class="slide_btn news_btn">
+              <!-- slide prebtn -->
+              <div class="swiper-button-prev news_prebtn"></div>
+              <!--slide count -->
+              <div class="slide_count">
+                <span class="cur-num news_cur-num">01</span>
+                <span>/</span>
+                <span class="total-num news_total-num">02</span>
+              </div>
+              <!-- slide nexbtn -->
+              <div class="swiper-button-next news_nexbtn"></div>
+            </div>
+          </div>
+
+          <div class="content_box_bottom">
+            <div class="swiper-container swiper3">
+              <ul class="swiper-wrapper news_content">
+                <li class="swiper-slide news_content_slide">
+                  <a href="#">
+                    <div class="news_img">
+                      <img
+                        alt="[보도자료] 딥노이드, 우즈베키스탄 국제공항과 업무실증협약 체결… 중앙아시아 공항 보안 시장 진출 본격화"
+                        class="gallery-item"
+                        src="https://static.wixstatic.com/media/8d6b8a_7ae967871ac74838b414eba266a146f6~mv2.jpg/v1/fill/w_310,h_175,fp_0.50_0.50,q_90,enc_auto/8d6b8a_7ae967871ac74838b414eba266a146f6~mv2.jpg"
+                      />
+                    </div>
+                    <div class="news_description">
+                      <p class="news_label">News</p>
+                      <p class="news_tit">
+                        [보도자료] 딥노이드, 우즈베키스탄 국제공항과
+                        업무실증협약 체결… 중앙아시아 공항 보안 시장 진출 본격화
+                      </p>
+                      <p class="news_day">2월 23일</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide news_content_slide">
+                  <a href="#">
+                    <div class="news_img">
+                      <img
+                        alt="[보도자료 ]딥노이드, 머신비젼 Global Top 기업 코그넥스와 MOU체결…사업 협력 확대"
+                        class="gallery-item"
+                        src="https://static.wixstatic.com/media/8d6b8a_a9e757fea6b149b99dc0271d3135f2aa~mv2.jpg/v1/fill/w_310,h_175,fp_0.50_0.50,q_90,enc_auto/8d6b8a_a9e757fea6b149b99dc0271d3135f2aa~mv2.jpg"
+                      />
+                    </div>
+                    <div class="news_description">
+                      <p class="news_label">News</p>
+                      <p class="news_tit">
+                        [보도자료] 딥노이드, ‘2024 PROMETHEUS AI HACKATHON’
+                        파트너사로 참여… 인공지능 인재 육성 후원
+                      </p>
+                      <p class="news_day">2월 08일</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide news_content_slide">
+                  <a href="#">
+                    <div class="news_img">
+                      <img
+                        alt="[기획기사] 의료 인공지능(AI)의 시대, 의사와 AI의 역할"
+                        class="gallery-item"
+                        src="https://static.wixstatic.com/media/8d6b8a_9253a55d433c4f148053dd1bebad668e~mv2.jpg/v1/fill/w_310,h_175,fp_0.50_0.50,q_90,enc_auto/8d6b8a_9253a55d433c4f148053dd1bebad668e~mv2.jpg"
+                      />
+                    </div>
+                    <div class="news_description">
+                      <p class="news_label">News</p>
+                      <p class="news_tit">
+                        [보도자료 ]딥노이드, 머신비젼 Global Top 기업 코그넥스와
+                        MOU체결…사업 협력 확대
+                      </p>
+                      <p class="news_day">2월 5일</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide news_content_slide">
+                  <a href="#">
+                    <div class="news_img">
+                      <img
+                        alt="[보도자료] 딥노이드, 두바이 최대 의료기기 전시회 '아랍헬스 2024' 참가"
+                        class="gallery-item"
+                        src="https://static.wixstatic.com/media/8d6b8a_a494d31bd79f4f1a8002b2e0d9431747~mv2.jpg/v1/fill/w_310,h_175,fp_0.50_0.50,q_90,enc_auto/8d6b8a_a494d31bd79f4f1a8002b2e0d9431747~mv2.jpg"
+                      />
+                    </div>
+                    <div class="news_description">
+                      <p class="news_label">News</p>
+                      <p class="news_tit">
+                        [보도자료] 딥노이드, 두바이 최대 의료기기 전시회
+                        '아랍헬스 2024' 참가
+                      </p>
+                      <p class="news_day">1월 23일</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide news_content_slide">
+                  <a href="#">
+                    <div class="news_img">
+                      <img
+                        alt='[Interview] 딥노이드 "동남아 중심으로 의료 AI 해외 시장 개척할 것'
+                        class="gallery-item"
+                        src="https://static.wixstatic.com/media/8d6b8a_84701a3b031a46e19c7f975a4f6252e2~mv2.png/v1/fill/w_465,h_263,fp_0.50_0.50,q_95,enc_auto/8d6b8a_84701a3b031a46e19c7f975a4f6252e2~mv2.png"
+                      />
+                    </div>
+                    <div class="news_description">
+                      <p class="news_label">News</p>
+                      <p class="news_tit">
+                        [Interview] 딥노이드 "동남아 중심으로 의료 AI 해외 시장
+                        개척할 것
+                      </p>
+                      <p class="news_day">2월 23일</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide news_content_slide">
+                  <a href="#">
+                    <div class="news_img">
+                      <img
+                        alt="[보도자료] 딥노이드, 해운대백병원과 DEEP:NEURO 뇌질환 임상연구 업무협약 체결"
+                        class="gallery-item"
+                        src="https://static.wixstatic.com/media/8d6b8a_0331f1a3d3204f1d9fefb78ec70a0d44~mv2.png/v1/fill/w_465,h_263,fp_0.50_0.50,q_95,enc_auto/8d6b8a_0331f1a3d3204f1d9fefb78ec70a0d44~mv2.png"
+                      />
+                    </div>
+                    <div class="news_description">
+                      <p class="news_label">News</p>
+                      <p class="news_tit">
+                        [보도자료] 딥노이드, 우즈베키스탄 국제공항과
+                        업무실증협약 체결… 중앙아시아 공항 보안 시장 진출 본격화
+                      </p>
+                      <p class="news_day">2월 23일</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide news_content_slide">
+                  <a href="#">
+                    <div class="news_img">
+                      <img
+                        alt="[보도자료] 딥노이드, 우즈베키스탄 국제공항과 업무실증협약 체결… 중앙아시아 공항 보안 시장 진출 본격화"
+                        class="gallery-item"
+                        src="https://static.wixstatic.com/media/8d6b8a_7ae967871ac74838b414eba266a146f6~mv2.jpg/v1/fill/w_310,h_175,fp_0.50_0.50,q_90,enc_auto/8d6b8a_7ae967871ac74838b414eba266a146f6~mv2.jpg"
+                      />
+                    </div>
+                    <div class="news_description">
+                      <p class="news_label">News</p>
+                      <p class="news_tit">
+                        [보도자료] 딥노이드, 해운대백병원과 DEEP:NEURO 뇌질환
+                        임상연구 업무협약 체결
+                      </p>
+                      <p class="news_day">1월 10일</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide news_content_slide">
+                  <a href="#">
+                    <div class="news_img">
+                      <img
+                        alt="[보도자료] 딥노이드, AI융합 통관 영상 관리 솔루션 구축 사업 참여"
+                        class="gallery-item"
+                        src="https://static.wixstatic.com/media/e28c14_2606ddc06ca544339750d62675bec6c6~mv2.jpg/v1/fill/w_310,h_175,fp_0.50_0.50,q_90,enc_auto/e28c14_2606ddc06ca544339750d62675bec6c6~mv2.jpg"
+                      />
+                    </div>
+                    <div class="news_description">
+                      <p class="news_label">News</p>
+                      <p class="news_tit">
+                        [보도자료] 딥노이드, AI융합 통관 영상 관리 솔루션 구축
+                        사업 참여
+                      </p>
+                      <p class="news_day">1월 3일</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <!-- 스크롤바 -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hiring -->
+      <section id="Hiring" class="section">
+        <div class="Hiring_container">
+          <!-- hiring 왼쪽 -->
+          <div class="hiring_left">
+            <div class="hiring_left_inr">
+              <div class="hiring_left_inr_wrap">
+                <ul class="hiring_paragraph">
+                  <li class="hiring_paragraph_txt d_member_list">
+                    <i class="fa-solid fa-users"></i>
+                    <p>상생의 조직문화를 구축하는</p>
+                    <strong>협력인재</strong>
+                  </li>
+                  <li class="hiring_paragraph_txt d_member_list">
+                    <i class="fa-regular fa-lightbulb"></i>
+                    변화를 주도하는 <strong>도전인재</strong>
+                  </li>
+                  <li class="hiring_paragraph_txt d_member_tit">
+                    <i class="fa-solid fa-id-card"></i>
+                    <h3>딥노이드 인재상</h3>
+                    <strong style="color: rgb(255, 255, 255)"
+                      >스스로 성장하는 융합인재</strong
+                    >
+                  </li>
+                  <li class="hiring_paragraph_txt d_member_list">
+                    <i class="fa-solid fa-award"></i>
+                    <p>가치를 창조하는</p>
+                    <strong>전문인재</strong>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- hiring 오른쪽 -->
+          <div class="hiring_right">
+            <div class="hiring_description">
+              <p class="name">DEEPNOID</p>
+              <h2 class="section_tit hiring_tit">Careers</h2>
+              <p style="color: #535353" class="section_txt hiring_txt">
+                DEEPNOID는 누구나 인공지능을 쉽게 이해하고 4차 산업을 선도해나갈
+                당신을 기다립니다!
+              </p>
+
+              <div class="hiring_btn_wrapper">
+                <button class="hiring_btn">채용공고 보기</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- info -->
+      <section class="section">
+        <div class="content info_content">
+          <div class="info_content_inr">
+            <!--info title -->
+            <div class="info_content_top">
+              <p class="name">DEEPNOID</p>
+              <h2 class="section_tit">Contact us</h2>
+              <p class="section_txt">딥노이드의 소식을 제일 먼저 만나보세요.</p>
+            </div>
+            <!--info contents -->
+            <div class="info_content_bottom">
+              <div class="info_left">
+                <!-- tell email info-->
+                <div class="department">
+                  <h3>Information</h3>
+                  <div class="select_arrow_icon">
+                    <!-- 자바스크립트로 연결 -->
+                    <select
+                      id="departmentSelect"
+                      class="select"
+                      onchange="displayInfo()"
+                    >
+                      <option value="일반문의" selected>일반문의</option>
+                      <option value="의료AI">의료AI 분야</option>
+                      <option value="산업AI">산업AI 분야</option>
+                      <option value="플랫폼">플랫폼(딥파이) 분야</option>
+                      <option value="딥에듀">딥에듀 교육분야</option>
+                      <option value="주식_IR">주식 및 IR 분야</option>
+                      <option value="제휴마케팅">제휴마케팅 분야</option>
+                      <option value="인사총무">인사총무 분야</option>
+                      <option value="경영본부">경영본부</option>
+                    </select>
+                  </div>
+                  <div id="contactInfo">
+                    <p>
+                      <i class="fa-solid fa-phone"></i
+                      ><span id="phoneNumber"> +82-2-6952-6001</span>
+                    </p>
+                    <p>
+                      <i class="fa-solid fa-envelope"></i
+                      ><span id="email"> deepnoid@deepnoid.com</span>
+                    </p>
+                  </div>
+                </div>
+                <!-- news letter info-->
+                <div class="subscribe">
+                  <h3>News letter</h3>
+                  <div class="subscribe_wrap">
+                    <fieldset>
+                      <legend>원하는 사업 소식을 선택해 주세요.</legend>
+                      <div class="check_wrap">
+                        <label for="check1" id="medical" data-testid="checkbox"
+                          ><input
+                            id="check1"
+                            data-testid="input"
+                            type="checkbox"
+                            class="check1"
+                            name="medical"
+                            checked=""
+                            value="의료AI"
+                          />
+                          <span data-testid="text" class="eW1tpy">의료AI</span>
+                        </label>
+
+                        <label for="check2" id="industry" data-testid="checkbox"
+                          ><input
+                            id="check2"
+                            data-testid="input"
+                            type="checkbox"
+                            class="check2"
+                            name="medical"
+                            checked=""
+                            value="산업AI"
+                          />
+                          <span data-testid="text" class="eW1tpy">산업AI</span>
+                        </label>
+                      </div>
+                    </fieldset>
+                    <div class="email_box">
+                      <input
+                        name="email"
+                        class="email-input"
+                        type="email"
+                        placeholder="email@example.com"
+                        required=""
+                        autocomplete="off"
+                        value=""
+                      />
+                      <!-- 등록 -->
+                      <button class="subscribe_btn">
+                        <span style="font-weight: 600">등록</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="info_right">
+                <!-- sns info -->
+                <div class="sns">
+                  <h3>SNS</h3>
+                  <div class="sns-pagination-div">
+                    <span class="swiper-pagination-bullet">Youtube</span
+                    ><span class="swiper-pagination-bullet">Facebook</span
+                    ><span class="swiper-pagination-bullet">Blog </span>
+                  </div>
+
+                  <div class="swiper-container swiper4">
+                    <ul class="swiper-wrapper sns_wrap">
+                      <li class="swiper-slide sns_slide">
+                        <a href="#">
+                          <p class="sns_slide_tit sns_slide_tit1">
+                            Youtube
+                            <i class="fa-brands fa-youtube"></i>
+                          </p>
+                          <iframe
+                            class="youtube_img"
+                            src="https://www.youtube.com/embed/2KBslEsuvXM?si=-2rCKNsx4Muw__QO&autoplay=1&mute=1"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                          ></iframe>
+                          <p class="sns_slide_txt">
+                            [딥노이드] 2022 X4 AI 컨퍼런스 - 딥노이드 소개 영상
+                          </p>
+                        </a>
+                      </li>
+
+                      <li class="swiper-slide sns_slide">
+                        <a href="#">
+                          <p class="sns_slide_tit sns_slide_tit2">
+                            Facebook
+                            <i class="fa-brands fa-facebook"></i>
+                          </p>
+                          <img
+                            alt="딥팩토리, 2차 전지 수주 완료 "
+                            class="facebook_img"
+                            src="https://static.wixstatic.com/media/e28c14_5a2a303f8ca844d7a71fd2b1e22a1d5f~mv2.jpg/v1/fill/w_465,h_263,fp_0.50_0.50,q_90,enc_auto/e28c14_5a2a303f8ca844d7a71fd2b1e22a1d5f~mv2.jpg"
+                          />
+                          <p class="sns_slide_txt">
+                            [딥팩토리(DEEP:FACTORY)] 해외 2차전지 제조 공정에
+                            들어가는 75억 수준의 2차전지 솔루션 계약완료
+                          </p>
+                        </a>
+                      </li>
+
+                      <li class="swiper-slide sns_slide">
+                        <a href="#">
+                          <p class="sns_slide_tit sns_slide_tit3">
+                            Blog
+                            <i class="fa-brands fa-blogger"></i>
+                          </p>
+                          <img
+                            alt="딥뉴로, KCR 2023 스포트라이트"
+                            class="blog_img"
+                            src="https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-6/400444297_853580429897168_3243502804813730437_n.jpg?stp=cp6_dst-jpg&amp;_nc_cat=106&amp;ccb=1-7&amp;_nc_sid=5f2048&amp;_nc_ohc=LrG4AX1S0IAAX80taFl&amp;_nc_ht=scontent-ssn1-1.xx&amp;oh=00_AfDcQVboZqYq6mCCBaPZrDpYJL_8i7VtQ78l2cvOI_0gyA&amp;oe=65EF3F6E"
+                          />
+                          <p class="sns_slide_txt">
+                            [딥노이드] 'DEEP:NEURO' 최초 연구자가 이야기하는
+                            의료 AI 고려사항
+                          </p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- sns_btn -->
+                  <div class="sns_btn_box">
+                    <div class="slide_btn sns_btn">
+                      <!-- slide prebtn -->
+                      <div
+                        class="swiper-button-prev slide_prebtn sns_prebtn"
+                      ></div>
+                      <!-- slide nexbtn -->
+                      <div
+                        class="swiper-button-next slide_nexbtn sns_nextbtn"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="section fp-auto-height footer">
+        <div class="footer_wrap">
+          <div class="footer_logo">
+            <img
+              src="https://static.wixstatic.com/media/b136d4_5270368e22ec4d038bc84b2afb69c4bf~mv2.png/v1/fill/w_185,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/new-logo_white_221011.png"
+              style="width: 185px"
+              alt="deepnoid logo"
+            />
+          </div>
+          <div class="info-footer">
+            <p><span>(주)딥노이드 | 대표자명 : 최우식</span></p>
+            <p><span>08376 서울특별시 구로구 디지털로33길 55 1305호</span></p>
+            <p><span>​개인정보처리방침 </span></p>
+            <p><span>Copyright © DEEPNOID inc All right reserved.</span></p>
+          </div>
+        </div>
+      </footer>
+
+      <!--fullpage navigation custom -->
+      <ul id="myMenu">
+        <li class="menu_list" data-menuanchor="secondPage">
+          <a href="#secondPage">
+            <span class="menu_list_txt">Business Area</span>
+          </a>
+        </li>
+        <li class="menu_list" data-menuanchor="thirdPage">
+          <a href="#thirdPage">
+            <span class="menu_list_txt">News</span>
+          </a>
+        </li>
+        <li class="menu_list" data-menuanchor="fourthPage">
+          <a href="#fourthPage">
+            <span class="menu_list_txt">Careers</span>
+          </a>
+        </li>
+        <li class="menu_list" data-menuanchor="fifthPage">
+          <a href="#fifthPage">
+            <span class="menu_list_txt">Contact us</span>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <!--inquiry Arrow up -->
+    <aside>
+      <a href="#" class="inquiry">
+        <i class="fa-solid fa-square-pen"></i>
+        <span style="font-size: 12px">inquiry</span>
+      </a>
+      <a href="#firstPage" title="back to top" class="arrow_up"
+        ><i class="fa-solid fa-angles-up"></i
+        ><span style="font-size: 12px">Top</span>
+      </a>
+    </aside>
+
+    <!--inquiry 클릭시 modal -->
+    <div class="modal">
+      <div class="inquiry-modal">
+        <div class="modal-inner-box">
+          <!-- form -->
+          <form action="" name="inquiry_form">
+            <!--상단  -->
+            <div class="inquiry-wrap">
+              <div class="inquiry-top">
+                <div class="inquiry-title">
+                  <h3>Inquiry <span>문의하기</span></h3>
+                </div>
+                <button
+                  type="button"
+                  onclick=""
+                  title="팝업 닫기"
+                  class="modal-close-btn"
+                >
+                  <i class="fa-solid fa-x"></i>
+                </button>
+              </div>
+              <!--박스 내용  -->
+              <div class="inquiry-form-box">
+                <article class="inquiry-form-inr-box">
+                  <div class="inquiry-table">
+                    <div class="inquiry-table-list">
+                      <dl class="inquiry-list">
+                        <dt>제목</dt>
+                        <dd>
+                          <input
+                            class="inquiry-input"
+                            name="subject"
+                            type="text"
+                            placeholder="제목을 입력해주세요"
+                          />
+                        </dd>
+                      </dl>
+                      <dl class="inquiry-list">
+                        <dt>문의분야</dt>
+                        <dd>
+                          <select name="cate" class="inquiry-select">
+                            <option value="1">의료 AI</option>
+                            <option value="2">산업 AI</option>
+                            <option value="3">AI 플랫폼</option>
+                            <option value="4">AI 교육</option>
+                            <option value="5">IR</option>
+                            <option value="6">제휴마케팅</option>
+                            <option value="7">기타</option>
+                          </select>
+                        </dd>
+                      </dl>
+                    </div>
+                    <div class="inquiry-table-list">
+                      <dl class="inquiry-list">
+                        <dt>성명</dt>
+                        <dd>
+                          <input
+                            class="inquiry-input"
+                            name="name"
+                            type="text"
+                            placeholder="성명을 입력해주세요"
+                          />
+                        </dd>
+                      </dl>
+                      <dl class="inquiry-list">
+                        <dt>회사명</dt>
+                        <dd>
+                          <input
+                            class="inquiry-select"
+                            name="company"
+                            type="text"
+                            placeholder="회사명을 입력해주세요"
+                          />
+                        </dd>
+                      </dl>
+                    </div>
+                    <div class="inquiry-table-list">
+                      <dl class="inquiry-list">
+                        <dt>이메일</dt>
+                        <dd>
+                          <input
+                            class="inquiry-select"
+                            name="email"
+                            type="text"
+                            placeholder="이메일을 입력해주세요"
+                          />
+                        </dd>
+                      </dl>
+                      <dl class="inquiry-list">
+                        <dt>연락처</dt>
+                        <dd>
+                          <input
+                            class="inquiry-select"
+                            name="phone"
+                            type="text"
+                            placeholder="연락처를 입력해주세요"
+                          />
+                        </dd>
+                      </dl>
+                    </div>
+
+                    <dl class="inquiry-list inquiry-list-text">
+                      <dt>내용</dt>
+                      <dd>
+                        <textarea
+                          name="content"
+                          class="inquiry-textarea"
+                          placeholder="내용을 입력해주세요."
+                        ></textarea>
+                      </dd>
+                    </dl>
+                  </div>
+                  <div class="inquiry-agree-box">
+                    <p class="agree-txt">
+                      <input id="privacy" type="checkbox" />
+                      <label for="privacy"
+                        >개인정보 수집 및 이용에 동의합니다.
+                        <span>(필수) </span>
+                      </label>
+                    </p>
+                  </div>
+                </article>
+                <div class="inquiry-btn-box">
+                  <button class="" type="button">문의하기</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
