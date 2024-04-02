@@ -1043,7 +1043,9 @@ nav {
   filter: blur(2px);
   transition: 0.3s;
 }
-
+.sns_wrap .swiper-slide-active {
+  max-width: 700px;
+}
 .sns_slide a {
   height: 100%;
   padding: 3.5rem;
