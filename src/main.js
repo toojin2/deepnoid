@@ -86,7 +86,6 @@ const news_Swiper = new Swiper(".swiper3", {
   loop: true,
   spaceBetween: 40,
   slidesPerView: 4,
-  slidesPerGroup: 4,
   speed: 500,
   observer: true, // 추가
   observeParents: true, // 추가
@@ -168,12 +167,12 @@ function handleNextBtnClick() {
 }
 
 function handleNewsPreBtnClick() {
-  index = index === 1 ? 2 : index - 1;
+  index = index === 1 ? 8 : index - 1;
   updateNewsResult();
 }
 
 function handleNewsNextBtnClick() {
-  index = index === 2 ? 1 : index + 1;
+  index = index === 8 ? 1 : index + 1;
   updateNewsResult();
 }
 
