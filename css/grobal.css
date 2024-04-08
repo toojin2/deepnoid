@@ -97,6 +97,8 @@ section {
   background: url(../images/drew-beamer-kUHfMW8awpE-unsplash.jpg) no-repeat;
   background-size: cover;
   background-position: center;
+  width: min(100%, 1450px);
+  margin: 0 auto;
 }
 .section {
   padding: 0 0 0 8rem;
