@@ -102,6 +102,7 @@ section {
 }
 .section {
   padding: 0 0 0 8rem;
+  min-height: 700px !important;
 }
 
 .title {
@@ -120,4 +121,13 @@ section {
 }
 .min-container {
   min-width: var(--size-min-width);
+}
+/* 
+section 최소 높이 important로 지정
+*/
+#slide_wrap,
+#product_wrap,
+#media_wrap,
+#invest_wrap,
+#location_wrap {
 }
