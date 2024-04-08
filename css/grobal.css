@@ -110,9 +110,9 @@ section {
   font-size: 1.5rem;
   font-weight: 500;
 }
-#fullpage {
+/* #fullpage {
   min-width: var(--size-min-width);
-}
+} */
 .full-screen {
   padding: 0;
 }
