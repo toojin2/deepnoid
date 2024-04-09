@@ -721,6 +721,7 @@ nav {
 .info_content_bottom {
   width: 100%;
   height: calc(100vh - 400px);
+  max-height: 678px;
   min-height: 500px;
   display: flex;
   gap: 40px;
