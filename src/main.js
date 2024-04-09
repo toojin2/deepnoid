@@ -9,9 +9,18 @@
 // fullpage
 $(function () {
   let fp_auto_scroll = true;
+  const fp_section_contents = document.querySelectorAll(
+    ".section .section_contents"
+  );
   // 창의 높이가 800px 이하인 경우에만 fp_auto_scroll 변수를 false로 설정합니다.
   if (window.innerHeight <= 800) {
     fp_auto_scroll = false;
+    for (let i of fp_section_contents) {
+      i.style.margin = "140px auto";
+    }
+    // document.querySelector(
+    //   "#slide_wrap .my-custom-pagination-div"
+    // ).style.bottom = "60px";
   }
 
   $("#fullpage").fullpage({
