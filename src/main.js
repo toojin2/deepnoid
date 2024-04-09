@@ -10,6 +10,7 @@
 $(function () {
   $("#fullpage").fullpage({
     //options here
+    responsiveWidth: 1450,
     autoScrolling: true,
     scrollHorizontally: true,
     sectionsColor: ["#fff"],
