@@ -8,10 +8,16 @@
  */
 // fullpage
 $(function () {
+  let fp_auto_scroll = true;
+  // 창의 높이가 800px 이하인 경우에만 fp_auto_scroll 변수를 false로 설정합니다.
+  if (window.innerHeight <= 800) {
+    fp_auto_scroll = false;
+  }
+
   $("#fullpage").fullpage({
     //options here
     responsiveWidth: 1450,
-    autoScrolling: true,
+    autoScrolling: fp_auto_scroll, // fp_auto_scroll 변수에 따라 자동 스크롤 설정
     scrollHorizontally: true,
     sectionsColor: ["#fff"],
     scrollingSpeed: 1000,
