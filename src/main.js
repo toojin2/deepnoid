@@ -16,7 +16,6 @@ $(function () {
 
   $("#fullpage").fullpage({
     //options here
-    responsiveWidth: 1450,
     autoScrolling: fp_auto_scroll, // fp_auto_scroll 변수에 따라 자동 스크롤 설정
     scrollHorizontally: true,
     sectionsColor: ["#fff"],
