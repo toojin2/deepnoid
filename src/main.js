@@ -18,9 +18,6 @@ $(function () {
     for (let i of fp_section_contents) {
       i.style.margin = "140px auto";
     }
-    // document.querySelector(
-    //   "#slide_wrap .my-custom-pagination-div"
-    // ).style.bottom = "60px";
   }
 
   $("#fullpage").fullpage({
