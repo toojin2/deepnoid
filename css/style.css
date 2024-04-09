@@ -639,6 +639,7 @@ nav {
 }
 .hiring_left_inr {
   width: 100%;
+  min-height: 420px;
   height: 60%;
   background: rgba(255, 255, 255, 0.5);
   padding: 3rem;
