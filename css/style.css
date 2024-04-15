@@ -1069,6 +1069,7 @@ aside {
 aside.show {
   bottom: 3rem;
   opacity: 1;
+  z-index: 99;
 }
 
 .inquiry,
